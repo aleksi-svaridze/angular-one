@@ -1,9 +1,15 @@
+.services-wrapper {
+    background-image: url(../../assets/images/services_small.svg);
+    background-position: 100% 100%;
+    background-size: cover;
+    padding: 220px 0 71px;
+    margin-top: -40px;
+}
 .services {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 155px 0 172px;
 }
 .sevices__box {
     width: 100%;
@@ -56,8 +62,9 @@
     }
 }
 @media screen and (min-width: 768px){
-    .services {
-        margin: 203px 0 204px;
+    .services-wrapper {
+        padding: 285px 0 104px;
+        margin-top: -70px;
     }
     .sevices__box {
         flex-direction: row;
@@ -76,8 +83,11 @@
     }
 }
 @media screen and (min-width: 1200px){
+    .services-wrapper {
+        padding: 360px 0 171px;
+        margin-top: -100px;
+    }
     .services {
-        margin: 255px 0 281px;
         flex-direction: row;
     }
     .sevices__box {

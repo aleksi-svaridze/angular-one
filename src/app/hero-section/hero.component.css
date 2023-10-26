@@ -1,5 +1,6 @@
 .hero {
     background-image: url(../../assets/images/hero_small.svg);
+    background-color: var(--purple-light-extra);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
