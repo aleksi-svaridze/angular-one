@@ -1,0 +1,108 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 155px 0 172px;
+}
+.sevices__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 5px;
+}
+.sevices__box:not(:last-child) {
+    margin-bottom: 40px;
+}
+.services__box--number {
+    font-family: 'Fraunces 144pt S000', sans-serif;
+    color: var(--purple-dark);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+
+    width: 48px;
+    height: 46px;
+    border: 1px solid var(--purple-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 24px;
+    flex-shrink: 0;
+}
+.services__box--text-content {
+    text-align: center;
+}
+.services__box--text-content-title {
+    color: var(--purple-dark);
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.services__box--text-content-desc {
+    color: var(--purple-light);
+    font-size: 16px;
+    line-height: 28px; 
+}
+@media screen and (min-width: 480px){
+    .sevices__box {    
+        padding: 0 40px;
+    }
+}
+@media screen and (min-width: 768px){
+    .services {
+        margin: 203px 0 204px;
+    }
+    .sevices__box {
+        flex-direction: row;
+        justify-content: start;
+        padding: 0 60px;
+    }
+    .sevices__box:not(:last-child) {
+        margin-bottom: 48px;
+    }
+    .services__box--number {    
+        margin-bottom: initial;
+    }
+    .services__box--text-content {
+        text-align: left;
+        margin-left: 32px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .services {
+        margin: 255px 0 281px;
+        flex-direction: row;
+    }
+    .sevices__box {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .sevices__box:not(:last-child) {
+        margin-bottom: 0px;
+    }
+    .services__box--number {    
+        margin-bottom: 56px;
+    }
+    .services__box--text-content {
+        text-align: center;
+        margin-left: initial;
+        max-width: 354px;
+    }
+    .services__box--text-content-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 28px;
+    }
+    .services__box--text-content-desc {
+        font-size: 18px;
+        line-height: 32px; 
+    }
+}
