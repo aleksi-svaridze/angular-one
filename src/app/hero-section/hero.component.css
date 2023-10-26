@@ -1,0 +1,82 @@
+.hero {
+    background-image: url(../../assets/images/hero_small.svg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0 155px;
+    position: relative;
+}
+.hero__text-content {
+    max-width: 362px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+}
+.hero__text-content--title {
+    color: var(--white);
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px;
+}
+.hero__text-content--title span {
+    border-bottom: 3px solid var(--green);
+    display: inline-block;
+    line-height: 55px;
+} 
+.hero__image-content {
+    width: 320px;
+    height: 184px;
+    background-image: url(../../assets/images/phone_small.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 96px);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url(../../assets/images/hero_medium.svg);
+        padding: 10px 0 200px;
+    }
+    .hero__text-content {
+        max-width: 370px;
+    }
+    .hero__text-content--title {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .hero__text-content--title span {
+        line-height: 65px;
+    } 
+    .hero__image-content {
+        width: 514px;
+        height: 296px;
+        background-image: url(../../assets/images/phone_medium.png);
+        transform: translate(-46%, 161px);
+    }
+}
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-image: url(../../assets/images/hero_large.svg);
+        padding: 10px 0 325px;
+    }
+    .hero__text-content {
+        max-width: 500px;
+    }
+    .hero__text-content--title {
+        font-size: 80px;
+        line-height: 70px;
+    }
+    .hero__text-content--title span {
+        line-height: 85px;
+    } 
+    .hero__image-content {
+        width: 767px;
+        height: 441px;
+        background-image: url(../../assets/images/phone_large.png);
+        transform: translate(-48%, 170px);
+    }
+}

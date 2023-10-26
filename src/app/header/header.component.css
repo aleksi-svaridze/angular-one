@@ -1,0 +1,18 @@
+.header {
+    background-color: var(--purple-dark);
+    padding: 37px 0 45px;
+}
+.logo {
+    width: 95.76px;
+    height: 24.61px;
+}
+.logo__img {
+    width: 95.76px;
+    height: 24.61px;
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        padding: 57px 0 45px;
+    }
+}

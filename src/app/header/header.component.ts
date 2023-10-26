@@ -8,6 +8,4 @@ import { Component } from "@angular/core";
 })
 
 // First Step
-export class HeaderComponent {
-    desc = 'header component'
-}
+export class HeaderComponent {}

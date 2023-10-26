@@ -1,0 +1,38 @@
+.secondary-btn {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: .8px;
+    border-bottom: 3px solid var(--green);
+    transition: color .2s;
+}
+.secondary-btn:hover {
+    color: var(--green);
+}
+
+.primary-btn {
+    color: var(--purple-dark);
+    background: var(--green);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    padding: 14.5px 24px;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+
+.primary-btn:hover {
+    color: var(--green);
+    background: transparent;
+    border-color:  var(--green);
+}
+
+@media screen and (min-width: 1200px) {
+    .primary-btn,
+    .secondary-btn {
+        font-size: 18px;
+    }
+}
+
