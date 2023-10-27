@@ -12,6 +12,7 @@
 }
 
 .primary-btn {
+    display: inline-block;
     color: var(--purple-dark);
     background: var(--green);
     font-size: 16px;

@@ -1,0 +1,107 @@
+.contact {
+    margin-top: 100px;
+    position: relative;
+    height: 616px;
+}
+.contact__img--content {
+    width: 281px;
+    height: 281px;
+    border-radius: 50%;
+    background-color: var(--green);
+    overflow: hidden;
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.contact__img--content-img {
+    width: 265px;
+    height: 267px;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+.contact__text--content {
+    background-color: var(--purple-dark);
+    color: var(--white);
+    padding: 32px 31px;
+    text-align: center;
+    height: 375px;
+
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+.contact__text--content-title {
+    font-size: 32px;
+    line-height: 48px;
+}
+.contact__text--content-desc {
+    margin: 16px auto 24px;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 281px;
+}
+@media screen and (min-width: 768px) {
+    .contact {
+        height: 536px;
+    }
+    .contact__img--content {
+        left: 0;
+        transform: initial;
+    }
+    .contact__text--content {
+        padding: 48px 56px;
+        text-align: left;
+        width: 514px;
+        left: initial;
+        right: 0;
+    }
+    .contact__text--content-title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .contact__text--content-desc {
+        margin: 24px 0;
+        font-size: 16px;
+        line-height: 28px;
+        max-width: initial;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .contact {
+        height: 590px;
+        margin-top: 110px;
+    }
+    .contact__img--content {
+        transform: initial;
+        width: 477px;
+        height: 477px;
+    }
+    .contact__img--content-img {
+        width: 450.287px;
+        height: 453px;
+    }
+    .contact__text--content {
+        width: 730px;
+        height: 413px;
+        padding: 64px 65px 58px;
+    }
+    .contact__text--content-title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .contact__text--content-desc {
+        margin: 32px 0;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .contact__text--content {
+        width: 800px;
+    }
+}

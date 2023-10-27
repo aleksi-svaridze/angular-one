@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero-section/hero.component';
 import { ServicesComponent } from './services/services.component';
+import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -14,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     HeroComponent,
     ServicesComponent,
+    ContactComponent,
     FooterComponent
   ],
   imports: [
