@@ -60,6 +60,20 @@
         left: initial;
         right: 0;
     }
+    .contact__text--content::after {
+        content: '';
+        width: 173px;
+        height: 137px;
+        transform: rotate(-145deg);
+
+        background-image: url(../../assets/images/circles_icon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        position: absolute;
+        right: 15px;
+        bottom: -60px;
+    }
     .contact__text--content-title {
         font-size: 48px;
         line-height: 56px;
@@ -89,6 +103,10 @@
         width: 730px;
         height: 413px;
         padding: 64px 65px 58px;
+    }
+    .contact__text--content::after {
+        right: 70px;
+        bottom: -25px;
     }
     .contact__text--content-title {
         font-size: 56px;
